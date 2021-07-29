@@ -1,0 +1,99 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    color: darkblue;
+    font-size: 50px;
+}
+
+h2 {
+    color: red;
+    font-size: 35px;
+}
+
+h3 {
+    color: orange;
+}
+
+p {
+    color: black;
+    text-align: left;
+
+}
+
+.name-color {
+    color: rgb(224, 38, 147);
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.half-with {
+    width: 50%;
+    padding: 3%;
+
+
+}
+
+.half-with img {
+    width: 100%;
+
+}
+
+.button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+
+.top-part {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.resume {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+
+.secand-part {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area {
+    margin-left: 10px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.last-part {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gold;
+    padding-left: 10px;
+    border-radius: 20px;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+}
